@@ -1,5 +1,7 @@
 'use strict';
 
+app.use('/static', express.static(__dirname + '/public'));
+
 var express = require('express');
 var app = express();
 var routes = require('./routes/index');
