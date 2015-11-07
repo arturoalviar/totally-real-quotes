@@ -12,6 +12,10 @@ app.use('/', routes);
 app.use('/', quotes);
 
 
+app.use(function(req, res, next) {
+  res.render('error', {title: 'Actual Legit Quotes'});
+});
+
 app.listen(3000, function(){
   console.log("Running on port 3000");
 });
