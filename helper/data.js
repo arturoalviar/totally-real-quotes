@@ -7,11 +7,11 @@ var Data = function(n, q){
   this.quoteList = Object.keys(q);
 }
 
-Quotes.prototype.randomId = function(q){
+Data.prototype.randomId = function(q){
   return Math.floor(Math.random()*(Object.keys(q).length));
 }
 
-Quotes.prototype.randName = function(nameList){
+Data.prototype.randName = function(nameList){
   var rand = Math.floor(Math.random()*(nameList.length));
   return nameList[rand];
 }
