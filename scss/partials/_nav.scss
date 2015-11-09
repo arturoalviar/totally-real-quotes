@@ -1,0 +1,22 @@
+.nav{
+
+  ul{
+  list-style: none;
+  margin: 0;
+    li{
+      padding: $spacing-unit $spacing-unit .5rem;
+      display: inline-block;
+      margin-bottom: 1px;
+    }
+  }
+
+  a{
+    color: $white;
+    padding-bottom: .5rem;
+    font-weight: 500;
+  }
+
+  .active{
+    border-bottom: 3px solid #ececec;
+  }
+}
