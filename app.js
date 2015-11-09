@@ -5,6 +5,7 @@ var app = express();
 var routes = require('./routes/index');
 var quotes = require('./routes/quotes');
 var about  = require('./routes/about');
+var contact  = require('./routes/contact');
 
 app.use('/static', express.static(__dirname + '/public'));
 
@@ -14,7 +15,7 @@ app.set('views', __dirname + '/views');
 app.use('/', routes);
 app.use('/', quotes);
 app.use('/about', about);
-
+app.use('/contact', contact);
 
 app.use(function(req, res, next) {
   res.render('error', {title: 'Actual Legit Quotes'});
