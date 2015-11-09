@@ -4,6 +4,7 @@ var express = require('express');
 var app = express();
 var routes = require('./routes/index');
 var quotes = require('./routes/quotes');
+var about  = require('./routes/about');
 
 app.use('/static', express.static(__dirname + '/public'));
 
@@ -12,6 +13,7 @@ app.set('views', __dirname + '/views');
 
 app.use('/', routes);
 app.use('/', quotes);
+app.use('/about', about);
 
 
 app.use(function(req, res, next) {
