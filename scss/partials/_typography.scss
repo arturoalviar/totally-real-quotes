@@ -1,3 +1,11 @@
+h1,h2,h3{
+  color: $header-text-color;
+}
+
+span, p{
+  color: $body-text-color;
+}
+
 .banner-content{
   h1{
     color: $white;
@@ -7,4 +15,26 @@
 
 .center{
   text-align: center;
+}
+
+.right{
+  text-align: right;
+}
+
+.italic{
+  font-style: italic;
+}
+
+
+.card{
+  p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .quote{
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-bottom: $spacing-unit;
+  }
 }

@@ -8,3 +8,12 @@
   padding: 0 $spacing-unit/2;
   margin: 0 auto;
 }
+
+.container-small{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.flexbox{
+  @include flexbox();
+}

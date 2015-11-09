@@ -1,0 +1,14 @@
+.card{
+  background: $card;
+  box-shadow: $material-box-shadow;
+  padding: $spacing-unit;
+
+  &:before, &:after {
+      content: " ";
+      display: table;
+  }
+
+  &:after{
+      clear: both;
+  }
+}
