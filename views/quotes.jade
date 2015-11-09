@@ -1,7 +1,13 @@
 extends layout
 
 block content
-  img(src="#{name.picture}" alt="#{name.name}")
-  p "#{id.quote}"
-  p - #{name.name}
-  a#gen-quote(href="/#{rand_name}" + "/" + "#{rand_id}") Generate Quote
+  .container
+    .container-small
+      .card
+        .img-container
+          img.inline-img.quote-img(src="#{name.picture}" alt="#{name.name}")
+        div.quote-container
+          p.quote "#{id.quote}"
+          p.right.italic - #{name.name}
+      a#gen-quote(href="/#{rand_name}" + "/" + "#{rand_id}")
+        .btn.raised-btn.inline-btn Generate Quote
