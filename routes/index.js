@@ -12,7 +12,7 @@ var Data = new d(names, quotes);
 router.get('/', function(req, res, next){
   //rand_id and rand_name help generate a url for the next random quote
   res.render('index', {
-    title: 'Totally Legit Quotes',
+    title: 'Totally Real Quotes',
     rand_id: Data.randomId(quotes),
     rand_name: Data.randName(Data.nameList)
   });
