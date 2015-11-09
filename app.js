@@ -1,11 +1,11 @@
 'use strict';
 
-app.use('/static', express.static(__dirname + '/public'));
-
 var express = require('express');
 var app = express();
 var routes = require('./routes/index');
 var quotes = require('./routes/quotes');
+
+app.use('/static', express.static(__dirname + '/public'));
 
 app.set('view engine', 'jade');
 app.set('views', __dirname + '/views');
