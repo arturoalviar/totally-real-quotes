@@ -15,7 +15,7 @@ router.get('/:name/:id', function(req, res, next){
 
   var tempId = parseInt(id, 10);
   if( tempId < 0 || tempId > Data.quoteList.length || isNaN(id)){
-    res.render('error', {title: 'Totally Legit Quotes'});
+    res.render('error', {title: 'Totally Real Quotes'});
   }
   else{
   //name finds name in people.json
@@ -23,7 +23,7 @@ router.get('/:name/:id', function(req, res, next){
   //rand id is used to generate new url
   //rand name does the same as rand id
     res.render('quotes', {
-      title: 'Totally Legit Quotes',
+      title: 'Totally Real Quotes',
       name: Data.names[name],
       id: Data.quotes[id],
       rand_id: Data.randomId(quotes),
