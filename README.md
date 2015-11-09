@@ -20,3 +20,9 @@ Then run:
 ```sh
 $ node app.js
 ```
+
+Make a folder called public with a sub folder called css then run:
+
+```sh
+$ gulp
+```
