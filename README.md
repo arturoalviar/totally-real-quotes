@@ -2,6 +2,8 @@
 
 This is a site made using Express.js. Inspired by a John Oliver segment about quotes.
 
+[Checkout the site](https://totallyrealquotes.herokuapp.com/)
+
 
 ## Quick Start
 Install the following on your own
