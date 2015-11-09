@@ -23,7 +23,7 @@ router.get('/:name/:id', function(req, res, next){
   //rand id is used to generate new url
   //rand name does the same as rand id
     res.render('quotes', {
-      title: 'Totally Legit Data',
+      title: 'Totally Legit Quotes',
       name: Data.names[name],
       id: Data.quotes[id],
       rand_id: Data.randomId(quotes),
