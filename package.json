@@ -1,10 +1,10 @@
 {
   "name": "totallyrealquotes",
   "version": "1.0.0",
-  "description": "Collection of totally real quotes",
+  "description": "Collection of totally legit quotes",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Arturo Alviar",
   "license": "ISC",
