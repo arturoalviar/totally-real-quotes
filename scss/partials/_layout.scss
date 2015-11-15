@@ -7,6 +7,10 @@
   max-width: 800px;
   padding: 0 $spacing-unit/2;
   margin: 0 auto;
+
+  a{
+    @include animate();
+  }
 }
 
 .container-small{
