@@ -1,23 +1,23 @@
-.btn{
+.btn {
   background: none;
   border: 0;
   outline: 0;
   padding: $spacing-unit/2 $spacing-unit;
 }
 
-.raised-btn{
+.raised-btn {
   background: $btn;
   color: $btn-text;
   box-shadow: $material-box-shadow;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   font-weight: 500;
-  @include animate();
-  &:hover{
+  transition: box-shadow 0.3s ease-in-out;
+  &:hover {
     box-shadow: $material-box-shadow-hover;
   }
 }
 
-.inline-btn{
+.inline-btn {
   display: inline-block;
   margin: $spacing-unit auto;
 }
