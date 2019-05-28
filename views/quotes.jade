@@ -9,5 +9,4 @@ block content
         div.quote-container
           p.quote "#{id.quote}"
           p.right.italic - #{name.name}
-      a#gen-quote(href="/#{rand_name}" + "/" + "#{rand_id}")
-        .btn.raised-btn.inline-btn Generate Quote
+      a#gen-quote.btn.raised-btn.inline-btn(href="/#{rand_name}" + "/" + "#{rand_id}") Generate Quote
