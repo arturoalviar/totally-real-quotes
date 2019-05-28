@@ -3,16 +3,21 @@
   "version": "1.0.0",
   "description": "Collection of totally legit quotes",
   "main": "app.js",
+  "repository": {
+    "url": "https://github.com/arturoalviar/totally-real-quotes",
+    "type": "git"
+  },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "gulp"
   },
   "author": "Arturo Alviar",
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.3",
-    "gulp": "^3.9.0",
-    "gulp-minify-css": "^1.2.1",
-    "gulp-sass": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^4.0.2",
     "jade": "^1.11.0"
   }
 }
