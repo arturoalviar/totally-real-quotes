@@ -27,12 +27,28 @@
     "name": "Jesus Christ",
     "picture": "http://i.imgur.com/hO1IdeC.jpg"
   },
+<<<<<<< HEAD
+=======
+  "gandhi": {
+    "name": "Mahatma Gandhi",
+    "picture": "http://i.imgur.com/D2wxEcJ.jpg"
+  },
+>>>>>>> f3bbf7d343dab34db455169d80b4a39302886216
   "confucius": {
     "name": "Confucius",
     "picture": "http://i.imgur.com/EzOdZZZ.jpg"
   },
+<<<<<<< HEAD
   "anthony": {
     "name": "Susan B. Anthony",
+=======
+  "teresa": {
+    "name": "Mother Teresa",
+    "picture": "http://i.imgur.com/JpD8VY5.jpg"
+  },
+  "anthony": {
+    "name": "Susan B. anthony",
+>>>>>>> f3bbf7d343dab34db455169d80b4a39302886216
     "picture": "http://i.imgur.com/EwdFnkh.jpg"
   }
 }
