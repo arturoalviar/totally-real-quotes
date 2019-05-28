@@ -1,0 +1,38 @@
+{
+  "lincoln": {
+    "name": "Abraham Lincoln",
+    "picture": "http://i.imgur.com/O1LVILw.jpg"
+  },
+  "obama": {
+    "name": "Barack Obama",
+    "picture": "http://i.imgur.com/LK3wjIc.jpg"
+  },
+  "franklin": {
+    "name": "Benjamin Franklin",
+    "picture": "http://i.imgur.com/KueJW8q.jpg"
+  },
+  "jefferson": {
+    "name": "Thomas Jefferson",
+    "picture": "http://i.imgur.com/ONp7YtE.jpg"
+  },
+  "enstein": {
+    "name": "Albert Enstein",
+    "picture": "http://i.imgur.com/vKLeQTm.jpg"
+  },
+  "roosevelt": {
+    "name": "Theodore Roosevelt",
+    "picture": "http://i.imgur.com/UNFP9C7.jpg"
+  },
+  "jesus": {
+    "name": "Jesus Christ",
+    "picture": "http://i.imgur.com/hO1IdeC.jpg"
+  },
+  "confucius": {
+    "name": "Confucius",
+    "picture": "http://i.imgur.com/EzOdZZZ.jpg"
+  },
+  "anthony": {
+    "name": "Susan B. anthony",
+    "picture": "http://i.imgur.com/EwdFnkh.jpg"
+  }
+}
